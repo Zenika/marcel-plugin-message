@@ -1,0 +1,22 @@
+{
+  "name": "Message",
+  "description": "Displays a welcome message with two parts",
+  "elementName": "marcel-plugin-message",
+  "files": [
+    "index.html"
+  ],
+  "props": [
+    {
+      "name": "text1",
+      "description": "Big text",
+      "type": "String",
+      "defaultValue": ""
+    },
+    {
+      "name": "text2",
+      "description": "Smaller text",
+      "type": "String",
+      "defaultValue": ""
+    }
+  ]
+}

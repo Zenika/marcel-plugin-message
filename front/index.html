@@ -1,5 +1,6 @@
-<link rel="import" href="/plugins/shared-styles/shared-styles.html">
-<dom-module id="message-item">
+<link rel="import" href="./bower_components/polymer/polymer-element.html">
+
+<dom-module id="marcel-plugin-message">
   <template>
     <style include="shared-styles"></style>
     <style>
@@ -21,7 +22,7 @@
   <script>
     (() => {
       class Message extends Polymer.Element {
-        static get is () { return 'message-item' }
+        static get is () { return 'marcel-plugin-message' }
 
         static get properties () {
           return {
@@ -36,6 +37,6 @@
       }
 
       customElements.define(Message.is, Message);
-    })
+    })()
   </script>
 </dom-module>
